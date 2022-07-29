@@ -95,6 +95,10 @@ p{
 margin-top: 15px;
 }
 
+.feat{
+  background-color:rgba(240, 226, 209, 0.678);
+  margin: 5px;
+}
 .parent{
   position: relative;
   margin-bottom: 8%;
@@ -103,14 +107,17 @@ margin-top: 15px;
 .tick-gray{
   position: absolute;
   z-index: 1;
+  border-radius: 50%;
 }
 
 .tick-blue{
   position:absolute;
+  border-radius: 50%;
 }
 
 .feat:hover .tick-gray{
   z-index: -1;
+  border-radius: 50%;
 }
 
 
